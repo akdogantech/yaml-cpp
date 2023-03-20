@@ -1,0 +1,6 @@
+mkdir -p build
+cd build
+rm -r *
+cmake -DCMAKE_TOOLCHAIN_FILE=../toolchains/arm_v7/toolchain.cmake  ..
+make
+cp -r ../include/yaml-cpp/ libyaml-cpp.a <project_lib_dir>
