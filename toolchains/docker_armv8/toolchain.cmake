@@ -1,0 +1,5 @@
+set(CMAKE_SYSTEM_NAME Linux)
+set(TOOLCHAIN_TYPE arm_v8)
+set(CMAKE_CXX_COMPILER /usr/bin/g++)
+set(CMAKE_C_COMPILER /usr/bin/gcc)
+set(CMAKE_SYSTEM_PROCESSOR arm)
